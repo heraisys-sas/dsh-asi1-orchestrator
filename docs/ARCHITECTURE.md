@@ -1,5 +1,9 @@
 # Architecture — mode orchestrateur ASI:One dans DeepSeek Harness
 
+## Portée
+
+**Réscooping du 25/10/2026** : ce dépôt est réservé à la version plugin DSH. Ce document spécifie les options de proxying que le plugin doit porter ; l'intégration opérationnelle (proxy autonome Node, route clonée `asi-cloud-planner`, LaunchAgent, vérification e2e) est réalisée dans [heraisys-sas/reprise-harness](https://github.com/heraisys-sas/reprise-harness). Le contrat technique ci-dessous reste la référence validée.
+
 Cible vérifiée : DSH `0.2.1-rc.2` (app Electron macOS). Les numéros de ligne cités le sont dans la version extraite de ce build ; à revérifier à chaque mise à niveau.
 
 ## 1. Contrat ASI:One (confirmé côté opérateur)
